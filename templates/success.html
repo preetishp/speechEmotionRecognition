@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>success</title>
+</head>
+<body>
+<h1>SPEECH EMOTION RECOGNNITION</h1>
+
+{% if text %}
+     <center><h1> <b>RESULT : {{  text }} </b></h1></center>
+{% else %}
+     The extracted text will be displayed here
+   {% endif %}
+</body>
+<style>
+  body{
+  background: rgba(0,0,0,0.9);
+}
+h1{
+ width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 250px;
+  color: #ffffff;
+  font-family: Calibri;
+}
+
+p1{
+  width: 200%;
+  height: 200%;
+  text-align: center;
+  line-height: 1px;
+  color: #ffffff;
+  font-family: Calibri;
+}
+</style>
+</html>
